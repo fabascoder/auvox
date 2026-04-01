@@ -1,10 +1,13 @@
 import React from 'react'
+import NavBar from './components/NavBar.jsx'; 
+import Home from './components/Home.jsx'
 
 function App() {
 
   return (
     <>
-      <h1 class='text-(--amarelo)'>This is the Auvox's page</h1>
+      <NavBar />
+      <Home />
     </>
   )
 }
