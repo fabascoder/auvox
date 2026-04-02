@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/home.css";
-import computer from '../assets/computer.png'
-import configuracao from '../assets/configuracao.png'
-import celular from '../assets/celular.png'
+import computer from "../assets/computer.png";
+import configuracao from "../assets/configuracao.png";
+import celular from "../assets/celular.png";
+import setaDireita from "../assets/setaDireita.png";
 
 function Home() {
   return (
@@ -25,7 +26,52 @@ function Home() {
           </div>
 
           <div className="container-card-small">
-            <div className="card-small-1">
+            <div className="card">
+              <div className="card-inner">
+                
+                <div className="card-front">
+                  <img className="img-computer" src={computer} alt="" />
+                  <p className="text-card-small">Criação de sistemas</p>
+                </div>
+                
+                 <div className="card-back">
+                  <img className="img-computer" src={setaDireita} alt="" />
+                  <div className="text-card-small">SAIBA MAIS</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-inner">
+                
+                <div className="card-front">
+                  <img className="img-computer" src={configuracao} alt="" />
+                  <p className="text-card-small">Criação de sistemas</p>
+                </div>
+                
+                <div className="card-back">
+                  <img className="img-computer" src={setaDireita} alt="" />
+                  <div className="text-card-small">SAIBA MAIS</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-inner">
+                
+                <div className="card-front">
+                  <img className="img-computer" src={celular} alt="" />
+                  <p className="text-card-small">Criação de sistemas</p>
+                </div>
+                
+                 <div className="card-back">
+                  <img className="img-computer" src={setaDireita} alt="" />
+                  <div className="text-card-small">SAIBA MAIS</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="card-small-1">
               <div className="flex-card-small">
                 <div className="img-small-1">
                   <img className="img-computer" src={computer} alt="" />
@@ -34,9 +80,9 @@ function Home() {
                   <p className="text-card-small">Criação de sistemas</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="card-small-1">
+            {/* <div className="card-small-1">
               <div className="flex-card-small">
                 <div className="img-small-1">
                   <img className="img-computer" src={configuracao} alt="" />
@@ -56,8 +102,7 @@ function Home() {
                   <p className="text-card-small">Criação de sistemas</p>
                 </div>
               </div>
-            </div>
-
+            </div> */}
           </div>
         </div>
       </section>
