@@ -20,9 +20,7 @@ function NavBar() {
                     </ul>
                 </div>
 
-                {/* <div>
-                    <a href="#">Entrar</a>
-                </div> */}
+                
             </nav>
         </>
     )

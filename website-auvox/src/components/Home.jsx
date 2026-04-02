@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/home.css";
+import computer from '../assets/computer.png'
+import configuracao from '../assets/configuracao.png'
+import celular from '../assets/celular.png'
 
 function Home() {
   return (
@@ -10,12 +13,51 @@ function Home() {
           <span></span>
           <span></span>
         </div>
+
         <div className="content">
-          <h2>Onde a inivação tem <br /> valor de <span>ouro</span></h2>
+          <h2>
+            Onde a inivação tem <br /> valor de <span>ouro</span>
+          </h2>
           <div className="container-btn">
             <button className="button">
-                <span className="button-content">Conheça nossas soluções</span>
+              <span className="button-content">Conheça nossas soluções</span>
             </button>
+          </div>
+
+          <div className="container-card-small">
+            <div className="card-small-1">
+              <div className="flex-card-small">
+                <div className="img-small-1">
+                  <img className="img-computer" src={computer} alt="" />
+                </div>
+                <div>
+                  <p className="text-card-small">Criação de sistemas</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="card-small-1">
+              <div className="flex-card-small">
+                <div className="img-small-1">
+                  <img className="img-computer" src={configuracao} alt="" />
+                </div>
+                <div>
+                  <p className="text-card-small">Criação de sistemas</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="card-small-1">
+              <div className="flex-card-small">
+                <div className="img-small-1">
+                  <img className="img-computer" src={celular} alt="" />
+                </div>
+                <div>
+                  <p className="text-card-small">Criação de sistemas</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

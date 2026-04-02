@@ -2,8 +2,8 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #ffffff;
-    height: 80px;
+    background-color: #142740;
+    height: 180px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     /* box-shadow: 5px 5px 20px rgb(163, 163, 163); */
@@ -11,9 +11,9 @@ nav {
 
 ul {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 /* LINKS */
@@ -21,7 +21,7 @@ a {
   text-decoration: none;
   transition: 0.4s;
   position: relative;
-  color: #444;
+  color: #d4d4d4;
 }
 
 a:hover {
@@ -33,7 +33,7 @@ a::before {
   position: absolute;
   width: 0;
   height: 3px;
-  background-color: #142740;
+  background-color: #f2b544;
   bottom: 0;
   left: 0;
   transition: width 0.4s;
@@ -45,7 +45,7 @@ a:hover::before {
 
 /* IMAGEM */
 img {
-    width: 200px;
-    height: 70px;
+    width: 300px;
+    height: 100px;
     cursor: pointer;
 }
